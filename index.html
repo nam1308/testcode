@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     
+     <!-- Link css-->
+     <link rel="stylesheet" href="./assets/css/styles.css">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Link js -->
+     <script src="./assets/js/scripts.js"></script>
+</head>
+<body>
+<!-- Header -->
+<header>
+     <div class="container">
+          <div class="row">
+               <div class="col-md-4">
+                    <div class="flex-col justify-content-center h-100 logo img">
+                         <a href="#">
+                              <div class="logo_desktop">
+                                   <img src="./assets/images/logo_main.png" alt="">
+                              </div>
+                              <div class="logo_mb">
+                                   <img src="./assets/images/logo_mobile.png" alt="">
+                              </div>
+                         </a>
+                    </div>
+               </div>
+               <div class="col-md-8">
+                    <div class="desktop_login">
+                         <form action="" class="form_login">
+                              <div class="row">
+                                   <div class="col-md-9">
+                                        <div class="row">
+                                             <div class="col-md-6">
+                                                  <div class="flex-col h-100">
+                                                       <label for="">Email</label>
+                                                       <input type="text" placeholder="robert.langster@gmail.com">
+                                                  </div>
+                                             </div>
+                                             <div class="col-md-6">
+                                                  <div class="flex-col h-100">
+                                                       <label for="">Password</label>
+                                                       <div class="pass position-relative">
+                                                            <input type="text" placeholder="********" name="" id="">
+                                                            <div class="position-absolute img img_icon">
+                                                                 <img src="./assets/images/password_hide.png" alt="">
+                                                            </div>
+                                                       </div>
+                                                       <div class="forget w-100">
+                                                            <a href="">Forgot password?</a>
+                                                       </div>
+                                                  </div>    
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="col-md-3">
+                                        <div class="flex-col align-items-center justify-content-center h-100">
+                                             <button type="submit" class="form_login_btnm btnm">
+                                                  Login
+                                             </button>
+                                        </div>
+                                   </div>
+                              </div>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <div class="img img_mobile">
+          <img src="./assets/images/cssmobile.png" alt="">
+     </div>
+</header>
+
+<!-- Main -->
+<main id="main">
+     <section class="intro">
+          <div class="container">
+               <div class="row">
+                    <div class="col-md-7">
+                         <div class="intro_left">
+                              <div class="title">
+                                   <h2>Welcome to Design Guild</h2>
+                                   <p>Join the world’s largest community for designers</p>
+                              </div>
+                              <div class="recent-lg">
+                                   <div class="recent-lg-title">
+                                        <h4>Recent Logins</h4>
+                                   </div>
+                                   <div class="d-flex recent-lg-content">
+                                        <div class="recent-lg-item">
+                                             <div class="recent-lg-item_ct d-flex align-items-center">
+                                                  <div class="img recent-lg-img d-flex justify-content-center align-items-center">
+                                                       <img src="./assets/images/recent-lg-1.png" alt="">
+                                                  </div>
+                                                  <div class="recent-lg-name">
+                                                       <h3>Aliana Hepburn</h3>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="recent-lg-item">
+                                             <div class="recent-lg-item_ct d-flex align-items-center">
+                                                  <div class="img recent-lg-img d-flex justify-content-center align-items-center">
+                                                       <img src="./assets/images/recent-lg-2.png" alt="">
+                                                  </div>
+                                                  <div class="recent-lg-name">
+                                                       <h3>Andrew Pochink</h3>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="recent-lg-item">
+                                             <div class="recent-lg-item_ct d-flex align-items-center">
+                                                  <div class="img recent-lg-img d-flex justify-content-center align-items-center">
+                                                       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M19.0909 9.09091H10.9091V0.909091C10.9091 0.667985 10.8133 0.436754 10.6428 0.266267C10.4723 0.0957789 10.2411 0 10 0C9.75889 0 9.52766 0.0957789 9.35718 0.266267C9.18669 0.436754 9.09091 0.667985 9.09091 0.909091V9.09091H0.909091C0.667985 9.09091 0.436754 9.18669 0.266267 9.35718C0.0957789 9.52766 0 9.75889 0 10C0 10.2411 0.0957789 10.4723 0.266267 10.6428C0.436754 10.8133 0.667985 10.9091 0.909091 10.9091H9.09091V19.0909C9.09091 19.332 9.18669 19.5632 9.35718 19.7337C9.52766 19.9042 9.75889 20 10 20C10.2411 20 10.4723 19.9042 10.6428 19.7337C10.8133 19.5632 10.9091 19.332 10.9091 19.0909V10.9091H19.0909C19.332 10.9091 19.5632 10.8133 19.7337 10.6428C19.9042 10.4723 20 10.2411 20 10C20 9.75889 19.9042 9.52766 19.7337 9.35718C19.5632 9.18669 19.332 9.09091 19.0909 9.09091Z" fill="black"/>
+                                                       </svg>                                                       
+                                                  </div>
+                                                  <div class="recent-lg-name">
+                                                       <h3>Add Account</h3>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-md-5">
+                         <div class="title">
+                              <h3>
+                                   Join our <br> 
+                                   community today
+                              </h3>
+                              <p>
+                                   Get connected, find designers to start a project
+                              </p>
+                         </div>
+                         <div class="row">
+                              <div class="col-md-9">
+                                   <div class="intro_btnm btnm">
+                                        <a href="">
+                                             Sign Up
+                                        </a>
+                                   </div>
+                                   <div class="intro_login">
+                                        <p class="text">Or, login with</p>
+                                        <div class="intro_login_btnm">
+                                             <div class="row">
+                                                  <div class="col-4">
+                                                       <div class="intro_link">
+                                                            <a href="">
+                                                                 Facebook
+                                                            </a>
+                                                       </div> 
+                                                  </div>
+                                                  <div class="col-4">
+                                                       <div class="intro_link">
+                                                            <a href="">
+                                                                 Linked In
+                                                            </a>
+                                                       </div> 
+                                                  </div>
+                                                  <div class="col-4">
+                                                       <div class="intro_link">
+                                                            <a href="">
+                                                                 Google
+                                                            </a>
+                                                       </div> 
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>   
+                              </div>
+                              <div class="col-md-3"> </div>
+                         </div> 
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- login -->
+     <section class="mb_login">
+          <div class="container">
+               <form action="" class="form_login">
+                    <div class="flex-col h-100">
+                         <label for="">Email</label>
+                         <input type="text" placeholder="robert.langster@gmail.com">
+                    </div>
+                    <div class="flex-col h-100">
+                         <label for="">Password</label>
+                         <div class="pass position-relative">
+                              <input type="text" placeholder="********" name="" id="">
+                              <div class="position-absolute img img_icon">
+                                   <img src="./assets/images/password_hide.png" alt="">
+                              </div>
+                         </div>
+                         <div class="forget w-100">
+                              <a href="">Forgot password?</a>
+                         </div>
+                    </div>    
+                    <div class="flex-col align-items-center justify-content-center h-100">
+                         <button type="submit" class="form_login_btnm btnm">
+                              Login
+                         </button>
+                    </div>
+               </form>
+          </div>
+     </section>
+</main>
+
+<!-- Footer -->
+<footer>
+
+</footer>
+
+</body>
+</html>
